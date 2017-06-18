@@ -1,0 +1,553 @@
+/*
+Theme Name: luissantos
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: luissantos
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+luissantos is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+/* ## TYPE ######################################*/
+
+/* ## TYPE ######################################*/
+
+/* ## TYPE ######################################*/
+
+.container h1{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.object h1{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    opacity: 0.5;
+
+}
+
+.container h2{
+    color: #191919;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 8em;
+    letter-spacing: 0,01em;
+    line-height: 125%;
+    z-index: 10;
+    position: relative;
+}
+
+.article h2{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 8em;
+    letter-spacing: 0,01em;
+    line-height: 110%;
+    z-index: 10;
+    position: relative;
+    margin: -1.3em 0 0 0;
+}
+
+.project h2{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 8em;
+    letter-spacing: 0,01em;
+    line-height: 125%;
+    z-index: 10;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+header h3{
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.container h3{
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-align: left;
+    padding: 0.2em 0.4em;
+}
+
+.info h3{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+footer h3{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.info h4{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+header h4{
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin-top:-0.5em;
+}
+
+.article h4{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+footer h4{
+    color: #666;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.about h5{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.home h5{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.article-info h3{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0;
+}
+
+.article-info h4{
+    color: #1779ba;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+
+/* ## END_TYPE ######################################*/
+
+
+
+
+
+
+/* ## HOME ######################################*/
+
+.home{
+    height: auto;
+    background: #222;
+    top:0;
+    padding-top: 10rem;
+    transition: top 5s ease;
+    transition: background-color 2s ease;
+}
+
+header{
+    height: 10em;
+    padding: 4em 0 0 0;
+    float: left;
+    z-index: 999;
+    position: fixed;
+    transition: top 5s ease;
+    transition: padding 1s ease;
+}
+
+.scrolled {
+    background: #f7f7f7;
+
+}
+
+.about{
+    height: 25rem;
+    padding-top: 4rem;
+}
+
+.changeHeader{
+    padding-top: 1.5em;
+    transition: all 1s;
+}
+
+.changeHeader h3{
+    color: #1779ba;
+/*    font-weight: 900;*/
+}
+
+.changeHeader h4{
+    color: #1779ba;
+/*    font-weight: 400;*/
+}
+
+
+.info a:hover{
+    text-decoration: line-through;
+}
+
+
+.object {
+    height: 6em;
+}
+
+#horizontal {
+    position: fixed;
+    float: left;
+    width: auto;
+    background: none;
+    padding-left: 2em;
+    /*left: 0;
+    top: 90px;*/
+}
+
+
+
+
+/* ## CONTENT ######################################*/
+
+.container{
+    height: auto;
+    background: #f7f7f7;
+    padding: 3em 0 5em 0;
+/*
+    position: relative;
+    z-index: 2;
+*/
+}
+
+
+.title{
+    margin: 8rem 0 6rem 0;
+}
+
+
+.image{
+    display: none;
+    position: fixed;
+}
+
+.on img{
+    opacity: 0.5;
+}
+
+
+
+.tag{
+/*    height: 2rem;*/
+    background: #1779ba;
+    float: left;
+    margin: -2.3em 0 0 0.5em;
+    z-index: 30;
+    position: relative;
+/*    transition-duration: 2s;*/
+    overflow: hidden;
+}
+
+
+
+/*.dateProject{*/
+/*
+    display: none;
+    margin: 0 0.5em 0 0.5em;
+    left: 0;
+*/
+/*
+    font-weight: 300;
+}
+*/
+
+
+.dateProject{
+/*    overflow: hidden;*/
+    padding: 0 0.6em 0 0.5em;
+    margin-left: -50px;
+    font-weight: 300;
+    transition: margin 1s;
+}
+
+
+
+
+/*
+.tag:hover{
+    margin-left: 0;
+}
+*/
+
+
+
+
+.main{
+    position: relative;
+}
+
+
+
+
+
+
+
+/* ## PROJECT ######################################*/
+
+.project{
+/*    background: yellow;*/
+    height: auto;
+    width: 100%;
+    margin: auto;
+
+}
+
+.project{
+    background: url("../imgs/book-open-pages-literature-159872.jpeg") no-repeat;
+    height: 40em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article{
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5em 0 0 0;
+}
+
+.article-info{
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5em 0 10em 0;
+}
+
+
+.project-image{
+    padding-top: 5em;
+    height: auto;;
+    position: relative;
+}
+
+
+
+
+/* ## FOOTER ######################################*/
+
+.footer{
+    height: auto;
+    background: #222;
+    top: 0;
+    padding-top: 10rem;
+}
+
+
+.info{
+/*    background: red;*/
+    height: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+
+
+
+
+
+
+/* ## MODAL ######################################*/
+.modal {
+    display: none;
+    background: rgba(0,0,0, 0.8);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 888;
+/*    overflow-y: hidden;*/
+}
+
+.modal-isOpen {
+    display: block;
+}
+
+.modal-close {
+    font-size: 1.6rem;
+/*    float: right;*/
+    background: none;
+    z-index: 999;
+    position: fixed;
+    right: 2em;
+    padding: 1em 0 0 0;
+
+}
+
+.modal-dialog {
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+/*    padding: 20px;*/
+/*    position: fixed;*/
+    overflow-y: auto;
+    float: inherit;
+}
+
+
+
+
+.modal-dialog .md-content {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md-show..modal-dialog ~ .md-overlay {
+	background: #e74c3c;
+}
+
+.modal-dialog .md-content h3,
+.modal-dialog .md-content {
+	background: transparent;
+}
+
+.md-show.md-effect-12 .md-content {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+
+
+.modal-dialog {
+    -webkit-animation-name: animateModal;
+    -webkit-animation-duration: 2s;
+    animation-name: animateModal;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+
+@-webkit-keyframes animateModal {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes animateModal {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+/* ## CLOSE MODAL ######################################*/
+
+
+
+
+.close {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+    float: right;
+/*  overflow: hidden;*/
+}
+
+.close:hover::before, .close:hover::after {
+  background: #FFF;
+}
+
+
+.close::before, .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #1779ba;
+}
+.close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.close.thick::before, .close.thick::after {
+  height: 2px;
+  margin-top: -2px;
+}
+
+
+/*#####################*/
+
+
+.container h2:hover{
+    color: #1779ba;
+    cursor: crosshair;
+    transition-duration: 0.5s;
+}
